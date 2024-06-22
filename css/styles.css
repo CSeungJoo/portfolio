@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+header {
+    width: 100%;
+    height: 7vh;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header div a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.mainSection {
+    width: 100%;
+    min-height: 83vh;
+    display: flex;
+    justify-content: center;
+}
+
+.leftSide {
+    width: 20%;
+    height: 100%;
+}
+
+.mainContent {
+    width: 60%;
+    height: 100%;
+
+}
+
+.rightSide {
+    width: 20%;
+    height: 100%;
+
+}
+
+.default {
+    width: 100%;
+    min-height: 6vh;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#profileImg {
+    width: 126px;
+    height: 128px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    width: calc(100% - 158px);
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.info p {
+    margin-left: 30px;
+}
+p {
+    position: relative;
+}
+
+#mail::before {
+    position: absolute;
+    display: block;
+    content: url("../img/email.svg");
+    width: 20px;
+    height: 20px;
+    left: -30px;
+}
+
+#introduce {
+    margin: 10px 0;
+}
+.info h1, .info p {
+    display: block;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+#career::before {
+    position: absolute;
+    display: block;
+    content: url("../img/school.svg");
+    width: 20px;
+    height: 20px;
+    left: -30px;
+}
+
+#birth::before {
+    position: absolute;
+    display: block;
+    content: url("../img/calendar.svg");
+    width: 20px;
+    height: 20px;
+    left: -30px;
+}
+
+#phoneNumber::before {
+    position: absolute;
+    display: block;
+    content: url("../img/phone.svg");
+    width: 20px;
+    height: 20px;
+    left: -30px;
+}
+
+#jobCategory {
+    width: 100%;
+    min-height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.categoryContent {
+    min-width: 50px;
+    height: 40px;
+    border: 2px solid rgb(51, 47, 47);
+    border-radius: 20px;
+    background-color: rgb(51, 47, 47);
+    margin: 5px 5px;
+}
+
+
+.techStack {
+    width: 100%;
+    min-height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.day {
+    width: 25%;
+}
+.day p {
+    font-size: medium;
+    font-weight: 600;
+    width: 100%;
+    height: 8%;
+}
+
+.defaultContent {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+
+.content {
+    width: 65%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.content p {
+    display: flex;
+    min-width: 5vh;
+    margin: 0 10px;
+    min-height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.categoryContent p {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 0 15px;
+    color: white;
+    justify-content: flex-start;
+}
+
+.schoolType::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 2px;
+    height: 20px;
+    right: -10px;
+    background-color: rgb(106, 100, 100);
+}
+
+.major {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.introduce {
+    width: 100%;
+    min-height: 10vh;
+    display: inline-flex;
+    margin: 15px 0;
+}
+
+.introduce p {
+    display: inline;
+    
+}
+
+.box {
+    width: 100%;
+}
+
+.box p {
+    justify-content: flex-start;
+}
+
+.blog p::before {
+    position: absolute;
+    display: block;
+    left: -10px;
+    content: "-";
+    width: 20px;
+}
+
+.productLink p::before {
+    position: absolute;
+    display: block;
+    left: -10px;
+    content: "-";
+    width: 20px;
+}
+.repository p::before {
+    position: absolute;
+    display: block;
+    left: -10px;
+    content: "-";
+    width: 20px;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.etcType::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 2px;
+    height: 20px;
+    right: -10px;
+    background-color: rgb(106, 100, 100);
+}
+
+.serviceLink {
+    margin-left: 30px;
+}
+
+.serviceLink, .serviceName {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+}
+
+#links .defaultContent {
+    height: 30px !important;
+    border-bottom: 1px solid black;
+}
+
+.day div {
+    width: 100%;
+    height: 60%;
+}
+
+#projects .defaultContent {
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+
+#commandLine {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+
+#commandLine p {
+    color: green;
+}
+
+#commandInput {
+    width: 88%;
+}
+
+#commandSubmit {
+    width: 10%;
+}
