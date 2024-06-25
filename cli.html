@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 - CLI</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <div id="toGui">
+            <a href="/">
+                <p>GUI - 그래픽 버전</p>
+            </a>
+        </div>
+        <div id="toCli">
+            <a href="/cli.html">
+                <p>CLI - 명령어 버전</p>
+            </a>
+        </div>
+    </header>
+
+    <div class="mainSection">
+        <div class="leftSide"></div>
+        <div class="mainContent">
+            <div id="commandLine">
+                <p>[root@localhost ~/root]</p>
+            </div>
+            <div>
+                <input id="commandInput" type="text" placeholder="command input">
+                <input id="commandSubmit" type="button" value="입력">
+            </div>
+        </div>
+        <div class="rightSide">
+            <ul id="commands">
+                <li>
+                    명령어
+                    <ul>
+                        <li>ls - 현재 디렉토리의 파일이름을 확인할수 있습니다.</li>
+                        <li>pwd - 현재 디렉토리 경로를 출력합니다.</li>
+                        <li>cat - 파일의 내용을 읽습니다.</li>
+                        <li>cd - 디렉토리를 이동합니다.</li>
+                        <li>clear - 터미널 화면을 깨끗하게 지웁니다.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

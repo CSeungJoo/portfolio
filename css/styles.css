@@ -315,7 +315,8 @@ p {
 #commandLine {
     background-color: black;
     width: 100%;
-    height: 400px;
+    height: 600px;
+    overflow-y: scroll;
 }
 
 #commandLine p {
@@ -328,4 +329,14 @@ p {
 
 #commandSubmit {
     width: 10%;
+}
+
+#commands {
+    width: 90%;
+    margin-left: 10%;
+}
+
+#commands li ul {
+    width: 90%;
+    margin-left: 10%;
 }
